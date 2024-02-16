@@ -10,7 +10,7 @@ import {
   Typography,
 } from '@mui/material';
 
-const TMDB_KEY = process.env.REACT_APP_TMDB_API_KEY;
+const TMDB_KEY = a344c3ade06e63433450de5fdc6785c6;
 const POSTER_ROOT = process.env.REACT_APP_TMDB_POSTER;
 
 class RecList extends Component {
