@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import { CircularProgress, Rating, Typography } from '@mui/material';
 
-const TMDB_KEY = a344c3ade06e63433450de5fdc6785c6;
+const TMDB_KEY = "a344c3ade06e63433450de5fdc6785c6";
 const POSTER_ROOT = process.env.REACT_APP_TMDB_POSTER;
 
 class MovieList extends Component {
