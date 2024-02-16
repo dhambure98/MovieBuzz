@@ -11,7 +11,7 @@ import {
 } from '@mui/material';
 
 const TMDB_KEY = "a344c3ade06e63433450de5fdc6785c6";
-const POSTER_ROOT = process.env.REACT_APP_TMDB_POSTER;
+const POSTER_ROOT = "https://image.tmdb.org/t/p/original";
 
 class RecList extends Component {
   constructor(props) {
